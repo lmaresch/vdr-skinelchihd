@@ -11,7 +11,7 @@ license=('AGPL3')
 depends=("vdr-api=${_vdrapi}")
 optdepends=('ttf-vdrsymbols')
 _plugname=${pkgname//vdr-/}
-source=("vdr-plugin-${_plugname}::http://firefly.vdr-developer.org/skinelchihd/vdr-${plugname}-${pkgver}.tar.bz2"
+source=("vdr-plugin-${_plugname}::http://firefly.vdr-developer.org/skinelchihd/vdr-${_plugname}-${pkgver}.tar.bz2"
         "50-$_plugname.conf")
 backup=("etc/vdr/conf.avail/50-$_plugname.conf")
 sha512sums=('e7d701db812ec1da026ebc98cc2c8f7db2288022574346a41e3582198a1fd0ba607911a16d0f1c7d725ce316e6be960be3520919f213a71b2f69a5990ae2f5d9'
