@@ -10,6 +10,7 @@ pkgbase = vdr-skinelchihd
 	arch = armv7h
 	license = AGPL3
 	depends = vdr-api=2.4.6
+	depends = librsvg
 	depends = imagemagick
 	optdepends = ttf-vdrsymbols
 	backup = etc/vdr/conf.avail/50-skinelchihd.conf

@@ -8,7 +8,7 @@ pkgdesc="Das Elchi HD Skin ist die Weiterentwicklung des skinElchi-Plguins um de
 url="http://firefly.vdr-developer.org/skinelchihd/index.html"
 arch=('x86_64' 'i686' 'arm' 'armv6h' 'armv7h')
 license=('AGPL3')
-depends=("vdr-api=${_vdrapi}" 'imagemagick')
+depends=("vdr-api=${_vdrapi}" 'librsvg' 'imagemagick')
 optdepends=('ttf-vdrsymbols')
 _plugname=${pkgname//vdr-/}
 source=("vdr-plugin-${_plugname}::http://firefly.vdr-developer.org/skinelchihd/vdr-${_plugname}-${pkgver}.tar.bz2"
