@@ -3,7 +3,7 @@
 pkgname=vdr-skinelchihd
 pkgver=0.5.1
 _vdrapi=2.4.6
-pkgrel=3
+pkgrel=1
 pkgdesc="Das Elchi HD Skin ist die Weiterentwicklung des skinElchi-Plguins um dem VDR ein frischeres Design zu geben und die Möglichkeiten neuerer VDR-Versionen auszunutzen. U.a. unterstützt der Skin jetzt TrueColor und SVG-Kanal-Logos und ist Multithreading-fähig für Hintergrundtasks wie Scrolling oder Einlesen der EPG-Bilder."
 url="http://firefly.vdr-developer.org/skinelchihd/index.html"
 arch=('x86_64' 'i686' 'arm' 'armv6h' 'armv7h')
