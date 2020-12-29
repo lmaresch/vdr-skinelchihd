@@ -1,7 +1,7 @@
 pkgbase = vdr-skinelchihd
 	pkgdesc = Das Elchi HD Skin ist die Weiterentwicklung des skinElchi-Plguins um dem VDR ein frischeres Design zu geben und die Möglichkeiten neuerer VDR-Versionen auszunutzen. U.a. unterstützt der Skin jetzt TrueColor und SVG-Kanal-Logos und ist Multithreading-fähig für Hintergrundtasks wie Scrolling oder Einlesen der EPG-Bilder.
-	pkgver = 0.5.0
-	pkgrel = 3
+	pkgver = 0.5.1
+	pkgrel = 1
 	url = http://firefly.vdr-developer.org/skinelchihd/index.html
 	arch = x86_64
 	arch = i686
@@ -10,11 +10,12 @@ pkgbase = vdr-skinelchihd
 	arch = armv7h
 	license = AGPL3
 	depends = vdr-api=2.4.6
+	depends = imagemagick
 	optdepends = ttf-vdrsymbols
 	backup = etc/vdr/conf.avail/50-skinelchihd.conf
-	source = vdr-plugin-skinelchihd::http://firefly.vdr-developer.org/skinelchihd/vdr-skinelchihd-0.5.0.tar.bz2
+	source = vdr-plugin-skinelchihd::http://firefly.vdr-developer.org/skinelchihd/vdr-skinelchihd-0.5.1.tar.bz2
 	source = 50-skinelchihd.conf
-	sha512sums = e7d701db812ec1da026ebc98cc2c8f7db2288022574346a41e3582198a1fd0ba607911a16d0f1c7d725ce316e6be960be3520919f213a71b2f69a5990ae2f5d9
+	sha512sums = 87e67adbedc77446a7ca743907bf8357dd95d7de5e61c981086488f82e4dbdba38e477b191370f782f93474a3dc498e7675c170341895cfac0a7ba7991c68030
 	sha512sums = 9a7252ba5b1fb0d013d70cbd14652ecd3b68fb78680e93525d35643ad0a34c480e11943e7812191fe5fe3b665056ee480b8df4ae62e27b35f0e67dc15d24714f
 
 pkgname = vdr-skinelchihd
